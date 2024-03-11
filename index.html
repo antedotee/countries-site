@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Nunito:300,regular,500,600,700,800"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="title">
+        <h2>Where in the world?</h2>
+    </div>
+
+    <header class="header-container">
+      <div class="leftpart">
+        <textarea id="countrysearch" rows="1" cols="15"></textarea>
+        <button class="search">Search</button>
+
+      </div>
+        
+       <!-- <p><i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p> --> 
+      <!-- </div> -->
+
+      <div class="rightpart">
+        <p>Filter by region</p>
+        <!-- <form> -->
+          <!-- <div>Filter by region</div> -->
+          <select class="filterByRegion">
+              
+              <option value="placeholder" selected>All</option>
+              <option value="Africa">Africa</option>
+              <option value="America">America</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+          </select>
+        <!-- </form> -->
+
+      </div>
+    </header>
+
+    <main>
+      <div class="favorites-container">
+        <!-- <h2>Favorites</h2> -->
+      </div>
+      <div class="countries-container">
+        <!-- <div class="country-card">
+          <img src="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/35989054c1e74f4db3ecb4291b36c2dc.svg" alt="flag">
+          <div class="card-text">
+              <h3>Afghanistan</h3>
+              <p>Capital: Kabul</p>
+              <p>Region: Asia</p>
+              <button id="favorite">Favorite</button>
+          </div>
+        </div> -->
+      </div>
+
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
